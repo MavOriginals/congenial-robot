@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        /* Define your dark aesthetic theme with blue as the base color */
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #222;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: #00f; /* Blue color for links */
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        /* Add your own CSS styles here */
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#book">Book</a></li>
+            <li><a href="#youtube">YouTube</a></li>
+            <li><a href="#socials">Socials</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About</h2>
+        <!-- Add your about content here -->
+    </section>
+    <section id="book">
+        <h2>Book</h2>
+        <!-- Add your book content here -->
+    </section>
+    <section id="youtube">
+        <h2>YouTube</h2>
+        <!-- Add your YouTube content here -->
+    </section>
+    <section id="socials">
+        <h2>Socials</h2>
+        <!-- Add links to your social media profiles here -->
+        <p>
+            <a href="#">Twitter</a><br>
+            <a href="#">Instagram</a><br>
+            <a href="#">Facebook</a><br>
+        </p>
+    </section>
+    <!-- Add more sections and content as needed -->
+</body>
+</html>
